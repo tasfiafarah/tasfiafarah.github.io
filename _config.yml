@@ -46,7 +46,7 @@ collections_dir: _collections
 collections:
   columns:
     output: true
-  heros:
+  tf:
     output: true
 
 

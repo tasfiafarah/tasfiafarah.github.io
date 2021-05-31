@@ -3,10 +3,10 @@ layout: default
 ---
 
 <!-- HERO SECTION -->
-<section class="hero">
+<section class="tf">
   <!-- LEFT HERO -->
   <div class="sideHeroColumn">
-    {% for item in site.heros %}
+    {% for item in site.tf %}
       {% if item.position == 'left' %}
         {% include article.html item=item %}
         {% break %}
@@ -15,8 +15,8 @@ layout: default
   </div>
 
   <!-- HERO -->
-  <div class="heroColumn">
-    {% for item in site.heros %}
+  <div class="tfColumn">
+    {% for item in site.tf %}
       {% if item.position == 'center' %}
         {% include article.html item=item %}
         {% break %}
@@ -26,7 +26,7 @@ layout: default
 
   <!-- RIGHT HERO -->
   <div class="sideHeroColumn">
-    {% for item in site.heros %}
+    {% for item in site.tf %}
       {% if item.position == 'right' %}
         {% include article.html item=item %}
         {% break %}
